@@ -15,7 +15,7 @@ class AddIsbillToNewapks extends Migration
     {
         Schema::table('newapks', function (Blueprint $table) {
             //
-            $table->boolean('isbill')->default(false);
+            
         });
     }
 

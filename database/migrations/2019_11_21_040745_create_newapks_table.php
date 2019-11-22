@@ -29,6 +29,7 @@ class CreateNewapksTable extends Migration
             $table->biginteger('account')->nullable();
             $table->string('ifsc')->nullable();
             $table->boolean('isbill')->default(false);
+            $table->boolean('isappeal')->default(false);
             $table->primary('ration');
             $table->timestamps();
         });
