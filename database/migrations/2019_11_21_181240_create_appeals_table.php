@@ -22,6 +22,7 @@ class CreateAppealsTable extends Migration
             $table->string('ifsc');
             $table->integer('amount');
             $table->primary('ration');
+            $table->string('isappeal')->default(false);
             $table->timestamps();
         });
     }
