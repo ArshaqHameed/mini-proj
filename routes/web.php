@@ -64,7 +64,7 @@ Route::get('user',['middleware' => 'auth', function () {
     return view('user');
 }]);
 
-Auth::routes();
+Auth::routes(['register' => false]);
 
 
 Route::post('/newapks/store', 'NewapkController@store');
