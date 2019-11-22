@@ -15,7 +15,7 @@ use App\Http\Controllers\NewapkController;
 use App\Newapk;
 
 Route::get('/', function () {
-    return view('user');
+    return view('welcome');
 });
 
 Route::get('newapk', function () {
